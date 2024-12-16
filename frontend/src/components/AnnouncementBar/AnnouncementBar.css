@@ -1,0 +1,27 @@
+.announcement-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  .announcement-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-text 30s linear infinite;
+  }
+  
+  @keyframes scroll-text {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
