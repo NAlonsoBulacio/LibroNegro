@@ -51,7 +51,7 @@ const QuestionsAnswersEnd = ({ landing }) => {
           <div className=" w-full" key={index}>
             <div className="w-full">
               <button
-                className="w-full flex justify-between items-center space-x-2 text-gray-200 py-2"
+                className="w-full flex justify-between items-start space-x-2 text-gray-200 py-2"
                 onClick={() => {
                   answer !== qa.answer_id
                     ? handleAnswer(qa.answer_id)

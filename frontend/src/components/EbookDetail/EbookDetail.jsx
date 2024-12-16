@@ -16,7 +16,7 @@ const EbookDetail = () => {
             requisito de operar con nuestro broker socio, de esta manera, TODO
             ESTÁ INCLUIDO CON TAN SOLO $14,97 US
           </p>
-          <button className="cta-button bg-black text-white py-2 px-6 rounded-md poppins-semibold hover:bg-gray-800">
+          <button className="cta-button bg-black text-white py-2 px-6 rounded-md poppins-semibold text-xl hover:bg-gray-800">
             👉AGREGAR AL CARRITO
           </button>
         </div>

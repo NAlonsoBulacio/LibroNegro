@@ -15,6 +15,7 @@ import yes from "./yes.svg";
 import verificado from "./images/verificar.png";
 import matias from "./images/matias.jpeg";
 import logo_n from "./images/logo-n.png"
+import persona from "./images/persona.png"
 
 import testimonio1 from "./testimonios/1.jpg";
 import testimonio2 from "./testimonios/2.jpg";
@@ -55,5 +56,6 @@ export {
   testimonio7,
   testimonio8,
   testimonio9,
-  logo_n
+  logo_n,
+  persona
 };

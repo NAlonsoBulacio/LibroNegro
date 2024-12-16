@@ -1,14 +1,14 @@
 import React from "react";
-
+import { persona } from "../../assets";
 
 const ImageWithTextSection = () => {
   return (
     <div className="image-text-section py-10 px-4 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Columna izquierda: Imagen */}
-        <div className="image-container flex justify-center">
+        <div className="image-container hidden lg:flex justify-center">
           <img
-            src="https://via.placeholder.com/500x400" // Cambia esta URL por tu imagen
+            src={persona}
             alt="Descripción de la imagen"
             className="rounded-lg shadow-md"
           />
@@ -24,9 +24,17 @@ const ImageWithTextSection = () => {
             Sin una herramienta eficiente, las tareas se acumulan, los plazos se 
             escapan, y el estrés se apodera de ti. ¡Pero no tiene por qué ser así!
           </p>
-          <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 poppins-semibold">
+          <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 text-xl poppins-semibold">
             La Quiero 👉
           </button>
+        </div>
+        {/* Columna izquierda: Imagen */}
+        <div className="image-container flex lg:hidden justify-center  h-[400px]">
+          <img
+            src={persona}
+            alt="Descripción de la imagen"
+            className="rounded-lg shadow-md"
+          />
         </div>
       </div>
     </div>

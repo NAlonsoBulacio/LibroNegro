@@ -4,31 +4,26 @@ import { BiLogoLinkedin, BiLogoFacebook } from "react-icons/bi";
 import { BsPinMapFill } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
-import { logo, paymeth } from "../../assets/index";
+import { logo_n, paymeth } from "../../assets/index";
 const Footer = () => {
   return (
     <div className="w-full flex flex-wrap justify-center items-center py-6 pb-20 bg-white">
       <div className="w-full flex flex-wrap justify-center items-start px-10 sm:px-10 md:px-20 lg:px-28 py-10 space-x-0 lg:space-x-14 space-y-8 lg:space-y-0">
-        <div className="w-full lg:w-[40%] flex flex-wrap justify-start items-center space-y-6">
+        <div className="w-full lg:w-[40%] flex flex-wrap justify-center items-center space-y-6">
           <img
-            src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/logo_1.png?v=1613788072&width=500"
+            src={logo_n}
             alt="logo"
             className="w-1/3"
           />
-          <div>© 2024, Glé Skincare</div>
-          <div className="flex space-x-2 justify-center">
+          <div>© 2024 Hack Trading Club. Todos los derechos reservados.</div>
+          <div className="flex space-x-2 w-full justify-center">
             <a
-              href="https://gleskin.com/policies/privacy-policy"
+              href=""
               className="hover:underline"
             >
-              Privacy Policy
+              Politicas de Privacidad
             </a>
-            <a
-              href="https://gleskin.com/policies/terms-of-service"
-              className="hover:underline"
-            >
-              Terms and Condition
-            </a>
+           
           </div>
           <div className="w-full">
             <img src={paymeth} alt="" />
