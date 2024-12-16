@@ -3,7 +3,7 @@ import ProductDetail from "../../components/ProductDetail/ProductDetail";
 import Footer from "../../components/Footer/Footer";
 import DescriptionPercentage from "../../components/DescrptionPercentage/DescriptionPercentage";
 import CalendlyFooter from "../../components/CalendlyFooter/CalendlyFooter";
-import AnnouncementBar from "../../components/AnnouncementBar/AnnouncementBar";
+import AnnouncementBar from "../../components/AnnouncementBar2/AnnouncementBar";
 import Cta from "../../components/Cta/Cta";
 import EbookDetail from "../../components/EbookDetail/EbookDetail";
 import YoutubePlayer from "../../components/YoutubePlayer/YoutubePlayer";

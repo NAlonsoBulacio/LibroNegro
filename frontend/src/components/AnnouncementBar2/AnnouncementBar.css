@@ -1,0 +1,20 @@
+/* Barra sticky */
+.sticky-bar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  overflow: hidden;
+  z-index: 1000;
+
+}
+
+/* Contenedor de mensajes con desplazamiento */
+.scrolling-messages {
+  display: flex;
+  gap: 50px; /* Espacio entre mensajes */
+  white-space: nowrap; /* Sin saltos de línea */
+ 
+}
+
