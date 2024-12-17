@@ -84,7 +84,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
     </div>
   );
   return (
-    <div className="bg-white flex flex-wrap lg:flex-nowrap space-y-2">
+    <div className="bg-white flex flex-wrap lg:flex-nowrap space-y-2 overflow-hidden">
       <div className="flex flex-col gap-6 lg:w-2/4 ">
         <div className="sticky top-0">
           <img

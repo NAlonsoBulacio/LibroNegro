@@ -11,11 +11,9 @@ import QuestionsAnswersEnd from "../../components/QuestionsAnswersHome/Questions
 import Header from "../../components/Header/Header";
 import PainDots from "../../components/PainDots/PainDots";
 import AboutMatias from "../../components/AboutMatias/AboutMatias";
-import Testimonnials from "../../components/Testimonnials/Testimonnials"
+import Testimonnials from "../../components/Testimonnials/Testimonnials";
 const LandingPage = () => {
-
   const variants = [
-   
     {
       id: 2,
       title: "El Libro Negro del Trading",
@@ -31,10 +29,9 @@ const LandingPage = () => {
       ],
       link: "https://pay.hotmart.com/B97116025R",
     },
-  
   ];
 
-  const initialVariant =  {
+  const initialVariant = {
     id: 2,
     title: "El Libro Negro del Trading",
     variant: "1 ebook + Regalos",
@@ -48,7 +45,7 @@ const LandingPage = () => {
       `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
     ],
     link: "https://pay.hotmart.com/B97116025R",
-  }
+  };
 
   const [homeVariant, setHomeVariant] = useState(2);
   const handleHomeVariant = (variant) => {
@@ -56,17 +53,20 @@ const LandingPage = () => {
   };
   return (
     <div>
-      <AnnouncementBar />
-      <Header />
-      <div className="px-4 lg:px-10 xl:px-24 bg-white space-y-6 lg:space-y-20 py-10">
+      <div className="overflow-hidden">
+        <AnnouncementBar />{" "}
+      </div>
+      <div className="overflow-hidden">
+        {" "}
+        <Header />{" "}
+      </div>
+      <div className="px-4 lg:px-10 xl:px-24 bg-white space-y-6 lg:space-y-20 py-4 lg:py-6 overflow-hidden">
         <ProductDetail
           homeVariant={homeVariant}
           handleVariantDetail={handleHomeVariant}
           variants={variants}
           initialVariant={initialVariant}
         />
-
-       
       </div>
       <EbookDetail />
       <PainDots />
@@ -76,7 +76,7 @@ const LandingPage = () => {
       <div className="px-4 py-6 lg:px-10 xl:px-24 bg-gray-800">
         {/* <DescriptionPercentage /> */}
         {/* <YoutubePlayer /> */}
- 
+
         {/* <Reviews />
         <Ingredients /> */}
         <QuestionsAnswersEnd />

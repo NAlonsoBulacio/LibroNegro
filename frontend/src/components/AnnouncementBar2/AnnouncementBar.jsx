@@ -3,7 +3,7 @@ import "./AnnouncementBar.css";
 import Marquee from "react-fast-marquee";
 const AnnouncementBar = () => {
   return (
-    <div className="w-screen bg-gray-800 text-gray-100">
+    <div className="w-screen bg-gray-800 text-gray-100 overflow-hidden">
       <Marquee>
         <div class="flex py-4 gap-x-8 poppins-semibold">
           <div class=" px-6">
