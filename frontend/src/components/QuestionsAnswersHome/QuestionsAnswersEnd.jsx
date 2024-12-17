@@ -17,7 +17,13 @@ const QuestionsAnswersEnd = ({ landing }) => {
     },
     {
       question: "¿Qué incluye el ebook?",
-      answer: "respuesta 1",
+      answer: "El ebook incluye:<br />" +
+            "<ul>" +
+              "<li>Ebook: “El Libro Negro del Trading”</li>" +
+              "<li>6 libros digitales para mejorar tu trading</li>" +
+              "<li>Acceso a una Masterclass en vivo gratuita para aprender la estrategia HACK que utilizan los grandes fondos de inversión</li>" +
+              "<li>1 cupo gratuito a la academia <strong>HACK TRADING CLUB</strong></li>" +
+            "</ul>",
       answer_id: "1",
     },
     {
