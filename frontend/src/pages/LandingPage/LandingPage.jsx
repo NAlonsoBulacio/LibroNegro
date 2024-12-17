@@ -60,7 +60,7 @@ const LandingPage = () => {
         {" "}
         <Header />{" "}
       </div>
-      <div className="px-4 lg:px-10 xl:px-24 bg-white space-y-6 lg:space-y-20 py-4 lg:py-6 overflow-hidden">
+      <div className="px-2 lg:px-10 xl:px-24 bg-white space-y-6 lg:space-y-20 py-4 lg:py-6 overflow-hidden">
         <ProductDetail
           homeVariant={homeVariant}
           handleVariantDetail={handleHomeVariant}

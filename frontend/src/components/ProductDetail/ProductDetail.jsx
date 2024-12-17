@@ -74,11 +74,11 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
   const verified = <img src={verificado} alt="verificado" />;
 
   const ListItem = ({ text }) => (
-    <div className="flex items-center gap-2 mb-4">
+    <div className="flex items-center gap-2 mb-4 text-left">
       <div className="w-[26px] h-[26px] flex items-center justify-center">
         {verified}
       </div>
-      <span className="poppins-semibold text-gray-800 text-md lg:text-lg">
+      <span className="poppins-semibold text-gray-800 text-md lg:text-lg ">
         {text}
       </span>
     </div>
@@ -106,8 +106,8 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
         </div>
         <div className="w-full flex justify-start items-start ">
           <h1 className="text-gray-700 poppins-regular text-left">
-            Ebook + masterclass "Estrategia HACK" + comunidad + 1 cupo en el Hack
-            Trading Club - Todo en uno
+            Ebook + masterclass "Estrategia HACK" + comunidad + 1 cupo en el
+            Hack Trading Club - Todo en uno
           </h1>
         </div>
         <div className="w-full flex h-6 ">
@@ -137,8 +137,8 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
         <div className="w-full flex flex-wrap gap-3 py-4">
           <div className="flex items-center w-full">
             <div className="flex-grow rounded-md h-[2px] bg-gray-800"></div>
-            <div className="px-4 font-sans-400">Bundle and Save</div>
-            <div className="flex-grow h-[2px] bg-[#dfb939]"></div>
+            <div className="px-4 font-sans-400">Compra Segura</div>
+            <div className="flex-grow h-[2px] bg-gray-800"></div>
           </div>
           {variants?.map((variant, index) => {
             const savings = variant.compare_price - variant.price;
@@ -177,7 +177,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
                     </p>
                   </div>
                   <div className="">
-                    <p className="text-2xl poppins-semibold text-gray-700">
+                    <p className="text-2xl poppins-semibold text-gray-900">
                       ${variant.price}
                     </p>
                     <p className="poppins-regular text-gray-600 line-through">
@@ -186,7 +186,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
                   </div>
                 </div>
                 {variant.id === 2 ? (
-                  <div className="absolute w-10 lg:w-12 top-[-18px] lg:top-[-10px] right-[-14px] lg:right-[-23px]">
+                  <div className="absolute w-10 z-40 lg:w-12 top-[-18px] lg:top-[-10px] right-[-4px] lg:right-[-23px]">
                     <img
                       src={best_seller}
                       alt="best-seller"
@@ -204,13 +204,12 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
           <a href={objectVariant.link} onClick={() => handleClick()}>
             <button
               id="add-to-bag-button"
-              className="w-full rounded-md bg-gray-800 text-2xl poppins-semibold text-gray-200 px-2 py-4"
+              className="w-full rounded-2xl bg-gray-800 text-2xl poppins-semibold text-gray-100 px-2 py-4"
             >
               {`AGREGAR AL CARRITO`}
             </button>
           </a>
         </div>
-        
 
         {/* <CountdownTimer /> */}
         {/* <div className="w-full ">

@@ -21,13 +21,13 @@ const QuestionsAnswersEnd = ({ landing }) => {
       answer_id: "1",
     },
     {
-      question: "¿Cómo puedo acceder al webinar gratuito?",
-      answer: "respuesta 2",
+      question: "¿Cómo puedo acceder a la masterclass gratuita?",
+      answer: "Una vez recibas el ebook, te compartiremos el link de nuestra comunidad de WhatsApp donde estaremos dando la Masterclass en vivo a través de Google meet.",
       answer_id: "2",
     },
     {
       question: "¿Qué pasa si no estoy satisfecho con mi compra?",
-      answer: "respuesta 3",
+      answer: "Imposible que eso pase ya que el valor que recibirás instantáneamente con tu compra de $14.97 es altísimo.<br /> Pero si eso llega a ocurrir, tienes garantía de 7 días después de tu compra asegurada por Hotmart. <br/>Si pides la devolución, perderás el acceso a la masterclass y a la academia.",
       answer_id: "3",
     },
   ];

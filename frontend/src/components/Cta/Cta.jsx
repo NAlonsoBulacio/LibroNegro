@@ -15,10 +15,10 @@ const Cta = () => {
   return (
     <div className="hidden lg:flex flex-wrap py-8 bg-gray-800 px-2 lg:px-20 xl:px-20">
       <div className="w-full px-2 lg:px-14">
-        <a>
+        <a  href="https://pay.hotmart.com/B97116025R">
           {" "}
           <button
-            href="https://pay.hotmart.com/B97116025R"
+           
             className={`poppins-semibold text-3xl text-gray-800 px-4 py-2 bg-gray-100 rounded-3xl ${
               isAnimating ? "move-animation" : ""
             }`}

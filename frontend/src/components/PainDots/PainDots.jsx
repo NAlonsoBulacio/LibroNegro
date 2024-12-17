@@ -17,14 +17,21 @@ const ImageWithTextSection = () => {
         {/* Columna derecha: Título, texto, y botón */}
         <div className=" flex flex-wrap items-start space-y-4 text-left">
           <h2 className="text-3xl poppins-bold text-gray-800">
-          ¿Cuántas veces has perdido dinero porque pensaste que el trading era sencillo pero terminaste fallando?
+            ¿Cuántas veces has perdido dinero porque pensaste que el trading era
+            sencillo pero terminaste fallando?
           </h2>
           <p className="text-gray-700 poppins-regular text-lg">
-          Estoy seguro de que si no perdiste dinero en trading, tarde o temprano te pasará, creéme, no es como lo ves en redes sociales, realmente es muy difícil, me dejé la piel por ser entable, tuve que hacer miles de cosas y no quiero que tú pases por lo mismo, por eso lancé este proyecto.
+            Estoy seguro de que si no perdiste dinero en trading, tarde o
+            temprano te pasará, creéme, no es como lo ves en redes sociales,
+            realmente es muy difícil, me dejé la piel por ser entable, tuve que
+            hacer miles de cosas y no quiero que tú pases por lo mismo, por eso
+            lancé este proyecto.
           </p>
-          <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 text-xl poppins-semibold">
-            Agregar al carrito 👉
-          </button>
+          <a href="https://pay.hotmart.com/B97116025R">
+            <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 text-xl poppins-semibold">
+              Agregar al carrito 👉
+            </button>
+          </a>
         </div>
         {/* Columna izquierda: Imagen */}
         <div className="image-container flex lg:hidden justify-center  h-[400px]">

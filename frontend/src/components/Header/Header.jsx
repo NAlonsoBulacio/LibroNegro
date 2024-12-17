@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { logo_n } from "../../assets/index";
-import logo2 from "../../assets/logo-transparente.png";
-import MenuPhone from "../MenuPhone/MenuPhone";
-import { IoMenu } from "react-icons/io5";
+
 import "./Header.css";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,12 +10,12 @@ const Header = () => {
   return (
     <div>
       <div
-        className="z-40 top-0 pt-12 lg:pt-32 right-0 w-screen bg-white mx-auto flex items-center px-10 py-6 justify-between lg:hidden"
-        style={{ maxWidth: "1150px", height: "120px" }}
+        className="z-40 top-0 pt-10 lg:pt-32 right-0 w-screen bg-white mx-auto flex items-center px-10 py-6 lg:py- justify-between lg:hidden"
+        style={{ maxWidth: "1150px", height: "100px" }}
       >
         <div className="w-full flex justify-center items-center">
           <a href="/">
-            <img className="w-[95px]" src={logo_n} alt="Trading Club" />
+            <img className="w-[85px]" src={logo_n} alt="Trading Club" />
           </a>
         </div>
       </div>
@@ -26,9 +24,7 @@ const Header = () => {
           <img className="h-auto w-[105px]" src={logo_n} alt="Trading Club" />
         </div>
       </div>
-      <div>
-        {menuOpen ? <MenuPhone handleMenuToggle={handleMenuToggle} /> : ""}
-      </div>
+      
     </div>
   );
 };
