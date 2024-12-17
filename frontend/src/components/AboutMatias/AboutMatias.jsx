@@ -1,40 +1,44 @@
 import React from "react";
 import { matias } from "../../assets";
+
 const AboutMatias = () => {
   return (
     <div className="image-text-section bg-gray-100 py-10 px-4 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-        {/* Columna izquierda: Imagen */}
-        <div className=" flex flex-wrap items-start space-y-3 text-left">
+        {/* Columna izquierda: Texto */}
+        <div className="flex flex-wrap items-start space-y-3 text-left">
           <h2 className="text-3xl poppins-bold text-gray-800">
-           Conocé a Matias 🚀
+            Conocé a Matias 🚀
           </h2>
-          
           <p className="text-gray-700 poppins-regular text-lg">
-          Me llamo Matias, hace 7 años hago trading, desde mediados del 2017, con resultados auditados, desde principios del 2023 con toda la comunidad hacemos trading en vivo gratis
-
+            Me llamo <span className="font-bold">Matias</span>, hace{" "}
+            <span className="font-bold">7 años</span> hago trading, desde mediados del{" "}
+            <span className="font-bold">2017</span>, con resultados auditados. Desde principios del{" "}
+            <span className="font-bold">2023</span>, con toda la comunidad hacemos{" "}
+            <span className="font-bold">trading en vivo gratis</span>.
           </p>
           <p className="text-gray-700 poppins-regular text-lg">
-          Te traigo conocimiento que me costó mucho conseguir, años de estudio en materias como economía, programación, ciencia de datos, y que muy pocas personas tienen a día de hoy en las redes, nadie brinda todo este conocimiento junto.
-
+            Te traigo <span className="font-bold">conocimiento</span> que me costó mucho conseguir, 
+            años de estudio en materias como <span className="font-bold">economía, programación, 
+            ciencia de datos</span>, y que muy pocas personas tienen a día de hoy en las redes. 
+            <span className="font-bold">{" "}Nadie brinda todo este conocimiento junto.</span>
           </p>
           <p className="text-gray-700 poppins-regular text-lg">
-          Al igual que ustedes fracase mucho en estos 7 años
-
+            Al igual que ustedes, <span className="font-bold">fracasé</span> mucho en estos{" "}
+            <span className="font-bold">7 años</span>.
           </p>
           <p className="text-gray-700 poppins-regular text-lg">
-          Hoy, después de años perfeccionando un enfoque que combina análisis fundamental, cuantitativo y de datos, he ayudado a más de 40 personas a alcanzar consistencia y resultados reales en el mercado.
-
+            Hoy, después de años perfeccionando un enfoque que combina{" "}
+            <span className="font-bold">análisis fundamental, cuantitativo y de datos</span>, 
+            he ayudado a más de <span className="font-bold">40 personas</span> a alcanzar{" "}
+            <span className="font-bold">consistencia y resultados reales</span> en el mercado.
           </p>
-          {/* <button className="cta-button bg-black text-white py-2 px-6 rounded-md poppins-semibold hover:bg-gray-800">
-            👉AGREGAR AL CARRITO
-          </button> */}
         </div>
-        {/* Columna derecha: Título, texto, y botón */}
-        <div className="image-container flex justify-center  h-[400px]">
+        {/* Columna derecha: Imagen */}
+        <div className="image-container flex justify-center h-[400px]">
           <img
             src={matias} // Cambia esta URL por tu imagen
-            alt="Descripción de la imagen"
+            alt="Matias Trader"
             className="rounded-3xl shadow-md"
           />
         </div>

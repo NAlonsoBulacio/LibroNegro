@@ -22,9 +22,9 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
     contains: [
       ` Por qué el  <span style="font-weight: normal;"> 95% fracasa </span>`,
       `Una solución precisa para <span style="font-weight: normal;"> formar parte del 5% que tiene éxito </span>`,
-      `Regalo: <span style="font-weight: normal;">curso + comunidad + cupo a la academia </span> para que implementes la solución`,
+      `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
     ],
-    link: "",
+    link: "https://pay.hotmart.com/B97116025R",
   });
   const variants = [
     {
@@ -38,9 +38,9 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
       contains: [
         ` Por qué el  <span style="font-weight: normal;"> 95% fracasa </span>`,
         `Una solución precisa para <span style="font-weight: normal;"> formar parte del 5% que tiene éxito </span>`,
-        `Regalo: <span style="font-weight: normal;">curso + comunidad + cupo a la academia </span> para que implementes la solución`,
+        `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
       ],
-      link: "",
+      link: "https://pay.hotmart.com/B97116025R",
     },
   ];
 
@@ -101,12 +101,12 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
           </h1>
         </div>
         <div className="w-full flex justify-start items-start text-[14px] text-left poppins-light">
-          Por qué el 95% fracasa y una solució precisa para formar parte del 5%
+          Por qué el 95% fracasa y una solución precisa para formar parte del 5%
           que tiene éxito
         </div>
         <div className="w-full flex justify-start items-start ">
           <h1 className="text-gray-700 poppins-regular text-left">
-            Ebook + curso "Estrategia HACK" + comunidad + 1 cupo en el Hack
+            Ebook + masterclass "Estrategia HACK" + comunidad + 1 cupo en el Hack
             Trading Club - Todo en uno
           </h1>
         </div>

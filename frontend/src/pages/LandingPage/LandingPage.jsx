@@ -27,9 +27,9 @@ const LandingPage = () => {
       contains: [
         ` Por qué el  <span style="font-weight: normal;"> 95% fracasa </span>`,
         `Una solución precisa para <span style="font-weight: normal;"> formar parte del 5% que tiene éxito </span>`,
-        `Regalo: <span style="font-weight: normal;">curso + comunidad + cupo a la academia </span> para que implementes la solución`,
+        `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
       ],
-      link: "",
+      link: "https://pay.hotmart.com/B97116025R",
     },
   
   ];
@@ -45,9 +45,9 @@ const LandingPage = () => {
     contains: [
       ` Por qué el  <span style="font-weight: normal;"> 95% fracasa </span>`,
       `Una solución precisa para <span style="font-weight: normal;"> formar parte del 5% que tiene éxito </span>`,
-      `Regalo: <span style="font-weight: normal;">curso + comunidad + cupo a la academia </span> para que implementes la solución`,
+      `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
     ],
-    link: "",
+    link: "https://pay.hotmart.com/B97116025R",
   }
 
   const [homeVariant, setHomeVariant] = useState(2);

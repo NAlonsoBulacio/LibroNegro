@@ -11,6 +11,11 @@ const QuestionsAnswersEnd = ({ landing }) => {
 
   const QAs = [
     {
+      question: "¿Hay garantía?",
+      answer: "Si bien todo lo que damos es 100% educativo y no prometemos resultados, tienes una garantía de 7 días después de tu compra asegurada por Hotmart!",
+      answer_id: "4",
+    },
+    {
       question: "¿Qué incluye el ebook?",
       answer: "respuesta 1",
       answer_id: "1",

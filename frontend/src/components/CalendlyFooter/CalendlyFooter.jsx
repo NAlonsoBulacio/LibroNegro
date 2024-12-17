@@ -46,7 +46,7 @@ const CalendlyFooter = ({  }) => {
       <div className="flex justify-center items-center py-3 px-2">
       
         <div>
-          <a href={""}
+          <a href={"https://pay.hotmart.com/B97116025R"}
           onClick={() => handleClick()}
           >
            <button

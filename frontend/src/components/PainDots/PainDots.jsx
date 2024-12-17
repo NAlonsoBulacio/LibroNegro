@@ -17,15 +17,13 @@ const ImageWithTextSection = () => {
         {/* Columna derecha: Título, texto, y botón */}
         <div className=" flex flex-wrap items-start space-y-4 text-left">
           <h2 className="text-3xl poppins-bold text-gray-800">
-            ¿Te sientes desorganizado y como si los días no te alcanzan?
+          ¿Cuántas veces has perdido dinero porque pensaste que el trading era sencillo pero terminaste fallando?
           </h2>
           <p className="text-gray-700 poppins-regular text-lg">
-            Con múltiples tareas y responsabilidades, es fácil perder el control. 
-            Sin una herramienta eficiente, las tareas se acumulan, los plazos se 
-            escapan, y el estrés se apodera de ti. ¡Pero no tiene por qué ser así!
+          Estoy seguro de que si no perdiste dinero en trading, tarde o temprano te pasará, creéme, no es como lo ves en redes sociales, realmente es muy difícil, me dejé la piel por ser entable, tuve que hacer miles de cosas y no quiero que tú pases por lo mismo, por eso lancé este proyecto.
           </p>
           <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 text-xl poppins-semibold">
-            La Quiero 👉
+            Agregar al carrito 👉
           </button>
         </div>
         {/* Columna izquierda: Imagen */}
