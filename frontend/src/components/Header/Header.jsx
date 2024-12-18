@@ -10,12 +10,12 @@ const Header = () => {
   return (
     <div>
       <div
-        className="z-40 top-0 pt-10 lg:pt-32 right-0 w-screen bg-white mx-auto flex items-center px-10 py-6 lg:py- justify-between lg:hidden"
-        style={{ maxWidth: "1150px", height: "100px" }}
+        className="z-40 top-0 pt-6 lg:pt-32 right-0 w-screen bg-white mx-auto flex items-center px-10 py-2 lg:py- justify-between lg:hidden"
+        style={{ maxWidth: "1150px", height: "60px" }}
       >
         <div className="w-full flex justify-center items-center">
           <a href="/">
-            <img className="w-[85px]" src={logo_n} alt="Trading Club" />
+            <img className="w-[135px]" src={logo_n} alt="Trading Club" />
           </a>
         </div>
       </div>
@@ -24,7 +24,6 @@ const Header = () => {
           <img className="h-auto w-[105px]" src={logo_n} alt="Trading Club" />
         </div>
       </div>
-      
     </div>
   );
 };
