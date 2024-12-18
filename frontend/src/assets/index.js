@@ -8,7 +8,7 @@ import libro_negro from "./images/logo.png";
 import yes from "./yes.svg";
 import verificado from "./images/verificar.png";
 import matias from "./images/matias.jpeg";
-import logo_n from "./images/logo-n.png"
+import logo_n from "./images/logo-libro.png"
 import persona from "./images/persona.png"
 
 import testimonio1 from "./testimonios/1.jpg";

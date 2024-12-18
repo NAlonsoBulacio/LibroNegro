@@ -18,7 +18,8 @@ const Footer = () => {
           <div>© 2024 Hack Trading Club. Todos los derechos reservados.</div>
           <div className="flex space-x-2 w-full justify-center">
             <a
-              href=""
+              href="/politicas-de-privacidad"
+             target="_blank" rel="noreferrer"
               className="hover:underline"
             >
               Politicas de Privacidad
