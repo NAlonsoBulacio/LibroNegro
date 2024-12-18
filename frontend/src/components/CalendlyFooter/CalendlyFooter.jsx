@@ -34,7 +34,12 @@ const CalendlyFooter = ({  }) => {
   }, []);
 
   const handleClick = () => {
-    window.fbq("trackCustom", "Checkout");
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "MetaAddToCartFooter",
+      eventCategory: "AddToCart",
+      eventAction: "Submit",
+    });
   };
   return (
     <footer

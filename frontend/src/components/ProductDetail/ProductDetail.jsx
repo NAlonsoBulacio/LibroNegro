@@ -68,7 +68,12 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
   };
 
   const handleClick = () => {
-    window.fbq("trackCustom", "Checkout");
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "MetaAddToCart",
+      eventCategory: "AddToCart",
+      eventAction: "Submit",
+    });
   };
 
   const verified = <img src={verificado} alt="verificado" />;
@@ -164,13 +169,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
                       <p className="poppins-semibold text-gray-800 text-left text-xl lg:text-xl">
                         {variant.variant}
                       </p>
-                      {/* {variant.free_shipping ? (
-                        <div className="mr-3 p-2 py-1 border-[#dfb939] text-[#dfb939] text-sm font-sans-400 border-2 rounded-md">
-                          Free Shipping
-                        </div>
-                      ) : (
-                        ""
-                      )} */}
+                    
                     </div>
                     <p className="text-sm poppins-light text-left">
                       Acceso de por vida
@@ -211,32 +210,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
           </a>
         </div>
 
-        {/* <CountdownTimer /> */}
-        {/* <div className="w-full ">
-          <div className="flex space-x-2 justify-center items-center">
-            <p className="font-sans-400 pb-2">
-              Shipping 2 to 5 days from Miami, USA
-            </p>
-            <img src={usa} alt="au" className="w-4 h-4 mb-2" />
-          </div>
-
-          <a href={objectVariant.link}
-          onClick={() => handleClick()}
-          >
-          <button
-            id="add-to-bag-button"
-            className="w-full rounded-md bg-[#1c4cfc] text-2xl font-sans-500 text-gray-200 px-2 py-4"
-          >
-            {objectVariant ? ` 👉🏻 ADD TO BAG $${objectVariant.price}` : ""}
-          </button>
-          </a>
-        </div> */}
-        {/* <div className="w-full flex justify-center items-center py-6">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/security-logos_8df234ec-25ca-4c88-9c6c-38f9dbe1e7cf.webp?v=1701626722"
-            alt=""
-          />
-        </div> */}
+       
         <div className="w-full ">
           <QuestionsAnswersHome />
           <div className="py-4">
@@ -245,14 +219,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
           </div>
         </div>
         <div className="flex items-start w-full p-4 border rounded-lg shadow-md bg-white text-left">
-          {/* Foto del testimonio */}
-          {/* <div className="w-[65px] h-[65px] rounded-full overflow-hidden">
-            <img
-              className="w-full h-full object-cover"
-              src="https://cdn.shopify.com/s/files/1/0436/0673/7049/files/dermatologist-gle.png?v=1712771349"
-              alt="Testimonio"
-            />
-          </div> */}
+         
 
           {/* Contenido del testimonio */}
           <div className="pl-4 w-full">
