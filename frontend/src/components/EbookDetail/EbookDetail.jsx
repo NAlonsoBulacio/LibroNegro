@@ -2,6 +2,15 @@ import React from "react";
 import video from "../../assets/videoGif.mp4";
 
 const EbookDetail = () => {
+  
+  const handleClick = () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "MetaAddToCartAbout",
+      eventCategory: "AddToCart",
+      eventAction: "Submit",
+    });
+  };
   return (
     <div className="image-text-section bg-gray-100 py-10 px-4 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -18,7 +27,7 @@ const EbookDetail = () => {
             requisito de operar con nuestro broker socio, de esta manera, TODO
             ESTÁ INCLUIDO CON TAN SOLO $14,97 US
           </p>
-          <a  href="https://pay.hotmart.com/B97116025R">
+          <a  href="https://pay.hotmart.com/B97116025R"  onClick={() => handleClick()}>
           <button className="cta-button bg-black text-white py-2 px-6 rounded-md poppins-semibold text-xl hover:bg-gray-800">
             👉AGREGAR AL CARRITO
           </button>

@@ -2,6 +2,17 @@ import React from "react";
 import { persona } from "../../assets";
 
 const ImageWithTextSection = () => {
+
+  const handleClick = () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "MetaAddToCartPain",
+      eventCategory: "AddToCart",
+      eventAction: "Submit",
+    });
+  };
+
+
   return (
     <div className="image-text-section py-10 px-4 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -27,7 +38,7 @@ const ImageWithTextSection = () => {
             hacer miles de cosas y no quiero que tú pases por lo mismo, por eso
             lancé este proyecto.
           </p>
-          <a href="https://pay.hotmart.com/B97116025R">
+          <a href="https://pay.hotmart.com/B97116025R" onClick={() => handleClick()}>
             <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 text-xl poppins-semibold">
               Agregar al carrito 👉
             </button>

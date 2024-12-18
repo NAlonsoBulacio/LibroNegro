@@ -2,6 +2,8 @@ import React from "react";
 import { matias } from "../../assets";
 
 const AboutMatias = () => {
+
+
   return (
     <div className="image-text-section bg-gray-100 py-10 px-4 lg:px-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
