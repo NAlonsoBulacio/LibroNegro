@@ -10,7 +10,7 @@ const AboutMatias = () => {
         {/* Columna izquierda: Texto */}
         <div className="flex flex-wrap items-start space-y-3 text-left">
           <h2 className="text-3xl poppins-bold text-gray-800">
-            Conocé a Matias 🚀
+            Conoce a Matias 🚀
           </h2>
           <p className="text-gray-700 poppins-regular text-lg">
             Me llamo <span className="font-bold">Matias</span>, hace{" "}

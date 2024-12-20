@@ -24,8 +24,8 @@ const EbookDetail = () => {
           </span>
           <p className="text-gray-700 poppins-regular text-lg">
             Con la compra del ebook tienes un cupo de regalo pero con el único
-            requisito de operar con nuestro broker socio, de esta manera, TODO
-            ESTÁ INCLUIDO CON TAN SOLO $14,97 US
+            requisito de operar con nuestro broker socio, de esta manera, <span className="poppins-bold">TODO
+            ESTÁ INCLUIDO CON TAN SOLO $14,97 USD</span>
           </p>
           <a  href="https://pay.hotmart.com/B97116025R"  onClick={() => handleClick()}>
           <button className="cta-button bg-black text-white py-2 px-6 rounded-md poppins-semibold text-xl hover:bg-gray-800">

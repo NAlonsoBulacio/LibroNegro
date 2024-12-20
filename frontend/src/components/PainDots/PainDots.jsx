@@ -2,7 +2,6 @@ import React from "react";
 import { persona } from "../../assets";
 
 const ImageWithTextSection = () => {
-
   const handleClick = () => {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
@@ -11,7 +10,6 @@ const ImageWithTextSection = () => {
       eventAction: "Submit",
     });
   };
-
 
   return (
     <div className="image-text-section py-10 px-4 lg:px-24">
@@ -32,13 +30,20 @@ const ImageWithTextSection = () => {
             sencillo pero terminaste fallando?
           </h2>
           <p className="text-gray-700 poppins-regular text-lg">
-            Estoy seguro de que si no perdiste dinero en trading, tarde o
-            temprano te pasará, creéme, no es como lo ves en redes sociales,
-            realmente es muy difícil, me dejé la piel por ser entable, tuve que
-            hacer miles de cosas y no quiero que tú pases por lo mismo, por eso
-            lancé este proyecto.
+            Estoy seguro de que si no{" "}
+            <span className="poppins-bold">perdiste dinero</span> en trading,
+            tarde o temprano te pasará, créeme, no es como lo ves en redes
+            sociales, realmente es{" "}
+            <span className="poppins-bold">muy difícil</span>, me dejé la piel
+            por ser rentable, tuve que hacer{" "}
+            <span className="poppins-bold">miles de cosas</span> y no quiero que
+            tú pases por lo mismo, por eso lancé este proyecto.
           </p>
-          <a href="https://pay.hotmart.com/B97116025R" onClick={() => handleClick()}>
+
+          <a
+            href="https://pay.hotmart.com/B97116025R"
+            onClick={() => handleClick()}
+          >
             <button className="cta-button bg-black text-white py-2 px-6 rounded-md hover:bg-gray-800 text-xl poppins-semibold">
               Agregar al carrito 👉
             </button>

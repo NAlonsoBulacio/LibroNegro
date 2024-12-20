@@ -22,7 +22,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
     contains: [
       ` Por qué el  <span style="font-weight: normal;"> 95% fracasa </span>`,
       `Una solución precisa para <span style="font-weight: normal;"> formar parte del 5% que tiene éxito </span>`,
-      `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
+      `Regalos: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
     ],
     link: "https://pay.hotmart.com/B97116025R",
   });
@@ -38,7 +38,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
       contains: [
         ` Por qué el  <span style="font-weight: normal;"> 95% fracasa </span>`,
         `Una solución precisa para <span style="font-weight: normal;"> formar parte del 5% que tiene éxito </span>`,
-        `Regalo: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
+        `Regalos: <span style="font-weight: normal;">masterclass + comunidad + cupo a la academia </span> para que implementes la solución`,
       ],
       link: "https://pay.hotmart.com/B97116025R",
     },
@@ -110,7 +110,7 @@ const ProductDetail = ({ homeVariant, handleVariantDetail }) => {
           que tiene éxito
         </div>
         <div className="w-full flex justify-start items-start ">
-          <h1 className="text-gray-700 poppins-regular text-left">
+          <h1 className="text-gray-700 poppins-bold text-left">
             Ebook + masterclass "Estrategia HACK" + comunidad + 1 cupo en el
             Hack Trading Club - Todo en uno
           </h1>
